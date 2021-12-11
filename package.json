@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/T0ASTMalone"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Modular Synth Library",
   "scripts": {
     "rollup": "rollup -c"
@@ -34,7 +34,8 @@
     "tslib": "^2.3.1"
   },
   "peerDependencies": {
-    "react": "17.0.2"
+    "react": "17.0.2",
+    "react-dom": "17.0.1"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
