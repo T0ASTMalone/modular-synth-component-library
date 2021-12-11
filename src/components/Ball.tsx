@@ -8,8 +8,7 @@ const Ball = (props: any) => {
 
   const [ref, api] = useSphere(() => ({
     mass: mass,
-    // @ts-ignore
-    args: 0.5,
+    args: [0.5],
     position: [0, Math.floor(Math.random() * 2) + 1, 0],
     material: { friction: 0.12, restitution: 1 },
   }));
